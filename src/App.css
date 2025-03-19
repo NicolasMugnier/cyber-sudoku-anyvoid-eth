@@ -1,0 +1,67 @@
+/* src/App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background: #0a0a0a url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PHBhdGggZD0iTTEwIDEwTTEwIDEyTTEyIDEwTTEwIDguNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMjAyMDIwIi8+PC9zdmc+');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Courier New', monospace;
+}
+
+.game-container {
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+}
+
+.sudoku-canvas {
+  display: block;
+  margin: 0 auto;
+  background: #000;
+  border: 2px solid #00ffff;
+  box-shadow: 0 0 20px #00ffff;
+  width: 500px;
+  height: 600px;
+}
+
+.controls {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.button {
+  min-width: 44px;
+  min-height: 44px;
+  background: #111;
+  border: 2px solid #ff00ff;
+  color: #00ffff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.button:hover {
+  background: #00ffff;
+  color: #000;
+  box-shadow: 0 0 10px #00ffff;
+}
+
+.timer {
+  color: #ff00ff;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+  text-shadow: 0 0 5px #ff00ff;
+}
+
+.message {
+  color: #00ffff;
+  text-align: center;
+  margin-top: 10px;
+  text-shadow: 0 0 5px #00ffff;
+}
